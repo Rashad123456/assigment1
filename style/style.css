@@ -37,6 +37,7 @@
       width: 251px;
     height: 52px;  
       border: none; 
+      
        
 }
 .hero {
@@ -68,6 +69,7 @@
 
 .btn2{
     border-radius: 1000px;
+    
     background-color: #FFFFFF;
     color: #30B868;
     padding: 8px 12px;
@@ -88,11 +90,12 @@ margin-right: auto;
 }
 
 
-.hero-box h2{
+.hero .hero-box h2{
     font-size: 18px;
     margin-left: auto;
     margin-right: auto;
     color: white;
+    
 
 }
 
@@ -143,16 +146,18 @@ height: 300px;
     text-align: center;
     font-size: 16px; 
 }
-.card img{
-  display: block;
-  margin: 0 auto 16px;
-  width: 48px;
-  background: rgba(249, 85, 85, 1);
-   border-radius: 20px;
-   width: 27.01px;
-height: 29px;
-
+.card img {
+    display: block;
+    margin: 0 auto 16px;      
+    width: 27px;               
+    height: 29px;             
+    padding: 8px;              
+    background-color: rgb(241, 88, 88);
+    border-radius: 20px;       
+    box-sizing: content-box;  
 }
+  
+ 
 .sallution{
     display: flex;
    
@@ -254,8 +259,9 @@ padding: 16px;
     font-size: 14px;
     text-align: center;
 }
-.btn2 img{
+.btn3 img{
     width: 20px;
-    height: 20px;
-    
-}
+height: 20px;
+
+}  
+
